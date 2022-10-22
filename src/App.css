@@ -1,0 +1,13 @@
+/* Navbar */
+.navbar a {
+  font-size: 18px;
+}
+.hero {
+  height: 80vh;
+  /* overflow: hidden; */
+}
+.hero img {
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
