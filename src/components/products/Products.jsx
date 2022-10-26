@@ -1,6 +1,7 @@
 import Loading from "../loading/Loading";
 import ShowProducts from "../showProducts/ShowProducts";
 import { useEffect, useState } from "react";
+import Footer from "../footer/Footer";
 
 function Products() {
   const [data, setData] = useState([]);
@@ -45,6 +46,7 @@ function Products() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

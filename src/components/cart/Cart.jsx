@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addItemToCart, deleteCartItem } from "../../redux/action";
+import Footer from "../footer/Footer";
 
 function Cart() {
   const state = useSelector((state) => state.cartReducer);

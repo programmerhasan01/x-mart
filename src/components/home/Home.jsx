@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer/Footer";
 import Products from "../products/Products";
 
 function Home() {
