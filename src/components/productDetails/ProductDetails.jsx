@@ -13,7 +13,7 @@ function ProductDetails({ product }) {
   return (
     <div className="row py-5">
       <div className="col-md-6">
-        <img src={image} alt={title} height={400} />
+        <img src={image} alt={title} height={400} width={"100%"} />
       </div>
       <div className="col-md-6">
         <h4 className="text-uppercase text-black-50">{category}</h4>

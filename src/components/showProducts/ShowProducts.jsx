@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useHref, useNavigate } from "react-router-dom";
+import { useHref, useNavigate } from "react-router-dom";
 
 function ShowProducts({ filteredProducts, data, setFilteredProducts }) {
   const ref = useHref();
@@ -17,7 +17,7 @@ function ShowProducts({ filteredProducts, data, setFilteredProducts }) {
   };
   return (
     <div className="products-container">
-      <div className="buttons d-flex justify-content-center mb-5 pb-5">
+      <div className="buttons d-flex justify-content-center mb-5 pb-5 row row-cols-4 row-cols-md-6 g-2">
         <button
           className="btn btn-outline-dark"
           onClick={() => setFilteredProducts(data)}
