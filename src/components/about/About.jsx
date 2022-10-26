@@ -7,8 +7,8 @@ function About() {
       <div className="container">
         <h2 className="text-center my-5 text-uppercase text-dark">About-Us</h2>
         <div
-          className="about-text mx-auto"
-          style={{ textAlign: "justify", width: "60%" }}
+          className="about-text mx-auto col-md-8"
+          style={{ textAlign: "justify" }}
         >
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
